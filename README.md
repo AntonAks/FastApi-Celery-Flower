@@ -27,6 +27,8 @@ Example of implementations a simple FastApi app with Celery tasks and Flower UI.
 4. Open http://0.0.0.0:8888/docs in your browser to see the Swagger UI
 5. Open http://0.0.0.0:5556/ in your browser to see the Flower UI
 
+### Notice that .env file is included in the repository for testing purposes only. In a real project, it should be added to .gitignore.
+
 ## Swagger UI
 
 ![Swagger UI](./img/Swagger.png)
