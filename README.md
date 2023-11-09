@@ -19,6 +19,17 @@ Example of implementations a simple FastApi app with Celery tasks and Flower UI.
 - `flower`: Flower UI - Celery monitoring tool
 - `redis`: Redis broker - Celery message broker
 
+## Project structure
+- `controllers/*`: Contains the FastApi logic for each endpoint
+- `views/*`: Contains the FastApi endpoints
+- `data/*`: Contains the test data files
+- `celery_worker.py`: Contains the Celery tasks
+- `main.py`: Contains the FastApi app entrypoint
+- `requirements.txt`: Contains the Python dependencies
+- `Dockerfile`: Contains the Docker configuration for the FastApi app
+- `docker-compose.yml`: Contains the Docker-compose configuration for the project
+
+
 ## How to run the project
 
 1. Clone the repository
